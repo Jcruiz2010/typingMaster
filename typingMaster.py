@@ -34,7 +34,7 @@ try:
             print("You typed it incorrectly...")
     print(f"\nTotal Correct: {numCorrect}")
     print(f"Total Incorrect: {numIncorrect}")
-    print(f"Your correct percentage is {(numCorrect/5)*100}%.")
+    print(f"Your correct percentage is {(numCorrect/15)*100}%.")
  
 except Exception as e:
     print("An unexpected error occurred:", e)
