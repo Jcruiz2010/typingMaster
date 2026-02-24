@@ -1,5 +1,22 @@
 import random
-words = ["Accomplishments", "Benzodiazepines", "Cyclohexylamine", "Discombobulated", "Disenfranchised"]
+words = [
+    "Ouagadougou",
+    "Naypyidaw",
+    "Antananarivo",
+    "Ulaanbaatar",
+    "Tegucigalpa",
+    "Reykjavik",
+    "Ljubljana",
+    "Bandar Seri Begawan",
+    "Thimphu",
+    "N'Djamena",
+    "Yamoussoukro",
+    "Gaborone",
+    "Ashgabat",
+    "Bishkek",
+    "Paramaribo"
+]
+
 random.shuffle(words)
 try:
     numCorrect = 0
